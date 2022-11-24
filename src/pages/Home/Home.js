@@ -4,6 +4,7 @@ import bg from "../../images/zettabg.jpg";
 import logo from "../../images/logo.png";
 import single from "../../images/single.png";
 import man from "../../images/man.png";
+import hand from "../../images/hand.jpg";
 
 const Home = () => {
   return (
@@ -213,7 +214,7 @@ const Home = () => {
           </div>
         </div>
         {/* ------------------------------------------ */}
-        <div className="flex justify-around align-middle items-center gap-3 m-5">
+        <div className="lg:flex justify-around align-center items-center gap-3 m-5">
           <div className="">
             <p className="text-2xl font-bold   text-gray-400 text-justify mb-5 ">
               Lorem ipsum dolor sit amet.
@@ -228,10 +229,35 @@ const Home = () => {
               Accusantium <br /> ratione repellendus accusamus? Officiis aut
               magni non nam modi quos aliquid!
             </p>
-            <button className="btn   border px-4 py-2 ">Zetta Watch</button>
+            <button className="btn flex   border px-4 py-2 ">
+              Zetta Watch
+            </button>
+          </div>
+          <div className="  mt-5">
+            <img className="mx-auto w-80" src={man} alt="" />
+          </div>
+        </div>
+        <div className="lg:flex justify-around align-center items-center gap-3 m-5">
+          <div className="  mt-5 rounded-lg">
+            <img className="mx-auto w-80 rounded-2xl" src={hand} alt="" />
           </div>
           <div className="">
-            <img src={man} alt="" />
+            <p className="text-2xl font-bold   text-gray-400 text-justify mb-5 ">
+              Lorem ipsum dolor sit amet.
+            </p>
+            <p className="text-justify mb-5 ">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium <br /> ratione repellendus accusamus? Officiis aut
+              magni non nam modi quos aliquid!
+            </p>
+            <p className="text-justify mb-5 ">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium <br /> ratione repellendus accusamus? Officiis aut
+              magni non nam modi quos aliquid!
+            </p>
+            <button className="btn flex   border px-4 py-2 ">
+              Zetta Watch
+            </button>
           </div>
         </div>
       </div>
