@@ -5,6 +5,7 @@ import logo from "../../images/logo.png";
 import single from "../../images/single.png";
 import man from "../../images/man.png";
 import hand from "../../images/hand.jpg";
+import multi from "../../images/multi.png";
 
 const Home = () => {
   return (
@@ -259,6 +260,91 @@ const Home = () => {
               Zetta Watch
             </button>
           </div>
+        </div>
+        <div className="p-6">
+          <h1 className="text-2xl font-bold font-sans text-center text-gray-400 mt-5">
+            Features Of Zetta Watch
+          </h1>
+          <div className=" lg:flex justify-evenly gap-2 mt-5">
+            <div
+              style={{
+                backgroundColor: "rgb(42, 45, 42)",
+                borderRadius: "10px",
+                opacity: 0.9,
+                backgroundBlendMode: "rgb(173, 164, 164)",
+                padding: "15px",
+                width: "300px",
+                margin: "5px",
+              }}
+              className=""
+            >
+              <h1>Lorem, ipsum dolor.</h1>
+              <h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                vero?
+              </h1>
+            </div>
+            <div
+              style={{
+                backgroundColor: "rgb(42, 45, 42)",
+                borderRadius: "10px",
+                opacity: 0.9,
+                backgroundBlendMode: "rgb(173, 164, 164)",
+                padding: "15px",
+                width: "300px",
+                margin: "5px",
+              }}
+              className=""
+            >
+              <h1>Lorem, ipsum dolor.</h1>
+              <h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                vero?
+              </h1>
+            </div>
+            <div
+              style={{
+                backgroundColor: "rgb(42, 45, 42)",
+                borderRadius: "10px",
+                opacity: 0.9,
+                backgroundBlendMode: "rgb(173, 164, 164)",
+                padding: "15px",
+                width: "300px",
+                margin: "5px",
+              }}
+              className=""
+            >
+              <h1>Lorem, ipsum dolor.</h1>
+              <h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                vero?
+              </h1>
+            </div>
+            <div
+              style={{
+                backgroundColor: "rgb(42, 45, 42)",
+                borderRadius: "10px",
+                opacity: 0.9,
+                backgroundBlendMode: "rgb(173, 164, 164)",
+                padding: "15px",
+                width: "300px",
+                margin: "5px",
+              }}
+              className=""
+            >
+              <h1>Lorem, ipsum dolor.</h1>
+              <h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+                vero?
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div className="mt-5">
+          <h1 className="text-2xl font-bold text-gray-400 ">
+            Everybody Loves Zetta !
+          </h1>
+          <img className="mx-auto lg:w-[800px] mt-3" src={multi} alt="" />
         </div>
       </div>
     </div>
