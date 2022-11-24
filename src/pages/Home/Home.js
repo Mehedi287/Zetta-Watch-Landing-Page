@@ -13,7 +13,7 @@ const Home = () => {
       <div className=" ">
         <nav
           aria-controls="navbar-sticky fixed-top"
-          class="bg-white    px-2 sm:px-4 py-2.5   dark:bg-gray-900"
+          class="bg-gray-800    px-2 sm:px-4 py-2.5   dark:bg-gray-900"
         >
           <div class="container flex flex-wrap items-center justify-between mx-auto">
             <a href="#" class="flex items-center">
@@ -277,10 +277,10 @@ const Home = () => {
                 opacity: 0.9,
                 backgroundBlendMode: "rgb(173, 164, 164)",
                 padding: "15px",
-                width: "300px",
+
                 marginBottom: "10px",
               }}
-              className=""
+              className="lg:w-72"
             >
               <h1>Lorem, ipsum dolor.</h1>
               <h1>
@@ -295,10 +295,10 @@ const Home = () => {
                 opacity: 0.9,
                 backgroundBlendMode: "rgb(173, 164, 164)",
                 padding: "15px",
-                width: "300px",
+
                 marginBottom: "10px",
               }}
-              className=""
+              className="lg:w-72"
             >
               <h1>Lorem, ipsum dolor.</h1>
               <h1>
@@ -313,10 +313,10 @@ const Home = () => {
                 opacity: 0.9,
                 backgroundBlendMode: "rgb(173, 164, 164)",
                 padding: "15px",
-                width: "300px",
+
                 marginBottom: "10px",
               }}
-              className=""
+              className="lg:w-72"
             >
               <h1>Lorem, ipsum dolor.</h1>
               <h1>
@@ -331,10 +331,10 @@ const Home = () => {
                 opacity: 0.9,
                 backgroundBlendMode: "rgb(173, 164, 164)",
                 padding: "15px",
-                width: "300px",
+
                 marginBottom: "10px",
               }}
-              className=""
+              className="lg:w-72"
             >
               <h1>Lorem, ipsum dolor.</h1>
               <h1>
