@@ -12,8 +12,8 @@ const Home = () => {
     <div className="text-gray-300 from-cyan-900 font-sans">
       <div className=" ">
         <nav
-          aria-controls="navbar-sticky"
-          class="bg-white    border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900"
+          aria-controls="navbar-sticky fixed-top"
+          class="bg-white    px-2 sm:px-4 py-2.5   dark:bg-gray-900"
         >
           <div class="container flex flex-wrap items-center justify-between mx-auto">
             <a href="#" class="flex items-center">
@@ -124,11 +124,11 @@ const Home = () => {
                 backgroundBlendMode: "rgb(173, 164, 164)",
               }}
             >
-              <img className="mx-auto m-2" src={single} alt="" />
+              <img className="mx-auto m-2 lg:mb-0 mb-5" src={single} alt="" />
             </div>
           </div>
           <div className="lg:flex gap-4 justify-items-end align-center   items-center">
-            <div className="flex text-justify justify-between gap-4 lg:flex-col align-center  ">
+            <div className="lg:flex text-justify justify-between gap-4 lg:flex-col align-center lg:w-72 ">
               <div
                 style={{
                   backgroundColor: "rgb(42, 45, 42)",
@@ -136,16 +136,17 @@ const Home = () => {
                   opacity: 0.9,
                   backgroundBlendMode: "rgb(173, 164, 164)",
                   padding: "10px",
-                  margin: "5px",
+                  marginBottom: "10px",
                 }}
                 className=""
               >
                 <img src="" alt="" />
                 <p className="text-lg text-center font-bold">Logo</p>
                 <br />
-                <p className="text-center ">Heigh Apple </p>
-                <p>
-                  Lorem ipsum dolor sit amet <br /> consectetur adipisicing
+
+                <p className="text-sm text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                  corporis! Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Est, corporis!
                 </p>
               </div>
@@ -156,21 +157,22 @@ const Home = () => {
                   opacity: 0.9,
                   backgroundBlendMode: "rgb(173, 164, 164)",
                   padding: "10px",
-                  margin: "5px",
+                  marginBottom: "10px",
                 }}
                 className=""
               >
                 <img src="" alt="" />
                 <p className="text-lg text-center font-bold">Logo</p>
                 <br />
-                <p className="text-center ">Heigh Apple </p>
-                <p>
-                  Lorem ipsum dolor sit amet <br /> consectetur adipisicing
+
+                <p className="text-sm text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                  corporis! Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Est, corporis!
                 </p>
               </div>
             </div>
-            <div className="flex text-justify justify-center gap-4 lg:flex-col">
+            <div className="lg:flex text-justify justify-center gap-4 lg:flex-col lg:w-72">
               <div
                 style={{
                   backgroundColor: "rgb(42, 45, 42)",
@@ -178,16 +180,17 @@ const Home = () => {
                   opacity: 0.9,
                   backgroundBlendMode: "rgb(173, 164, 164)",
                   padding: "10px",
-                  margin: "5px",
+                  marginBottom: "10px",
                 }}
                 className=""
               >
                 <img src="" alt="" />
                 <p className="text-lg text-center font-bold">Logo</p>
                 <br />
-                <p className="text-center ">Heigh Apple </p>
-                <p>
-                  Lorem ipsum dolor sit amet <br /> consectetur adipisicing
+
+                <p className="text-sm text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                  corporis! Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Est, corporis!
                 </p>
               </div>
@@ -198,16 +201,17 @@ const Home = () => {
                   opacity: 0.9,
                   backgroundBlendMode: "rgb(173, 164, 164)",
                   padding: "10px",
-                  margin: "5px",
+                  marginBottom: "10px",
                 }}
                 className=""
               >
                 <img src="" alt="" />
                 <p className="text-lg text-center font-bold">Logo</p>
                 <br />
-                <p className="text-center ">Heigh Apple </p>
-                <p>
-                  Lorem ipsum dolor sit amet <br /> consectetur adipisicing
+
+                <p className="text-sm text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                  corporis! Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Est, corporis!
                 </p>
               </div>
@@ -217,8 +221,8 @@ const Home = () => {
         {/* ------------------------------------------ */}
         <div className="lg:flex justify-around align-center items-center gap-3 m-5">
           <div className="">
-            <p className="text-2xl font-bold   text-gray-400 text-justify mb-5 ">
-              Lorem ipsum dolor sit amet.
+            <p className="text-2xl font-bold   text-gray-400   mb-5 ">
+              Being Confident And Decisive
             </p>
             <p className="text-justify mb-5 ">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -243,7 +247,7 @@ const Home = () => {
             <img className="mx-auto w-80 rounded-2xl" src={hand} alt="" />
           </div>
           <div className="">
-            <p className="text-2xl font-bold   text-gray-400 text-justify mb-5 ">
+            <p className="text-2xl font-bold   text-gray-400   mt-5 mb-5 ">
               Lorem ipsum dolor sit amet.
             </p>
             <p className="text-justify mb-5 ">
@@ -274,7 +278,7 @@ const Home = () => {
                 backgroundBlendMode: "rgb(173, 164, 164)",
                 padding: "15px",
                 width: "300px",
-                margin: "5px",
+                marginBottom: "10px",
               }}
               className=""
             >
@@ -292,7 +296,7 @@ const Home = () => {
                 backgroundBlendMode: "rgb(173, 164, 164)",
                 padding: "15px",
                 width: "300px",
-                margin: "5px",
+                marginBottom: "10px",
               }}
               className=""
             >
@@ -310,7 +314,7 @@ const Home = () => {
                 backgroundBlendMode: "rgb(173, 164, 164)",
                 padding: "15px",
                 width: "300px",
-                margin: "5px",
+                marginBottom: "10px",
               }}
               className=""
             >
@@ -328,7 +332,7 @@ const Home = () => {
                 backgroundBlendMode: "rgb(173, 164, 164)",
                 padding: "15px",
                 width: "300px",
-                margin: "5px",
+                marginBottom: "10px",
               }}
               className=""
             >
