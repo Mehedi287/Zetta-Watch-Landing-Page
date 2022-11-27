@@ -93,7 +93,7 @@ const Home = () => {
         }}
       >
         <div className="lg:flex justify-around align-center items-center gap-10 mb-4">
-          <div className="  text-justify    p-6  ">
+          <div className="  text-start    p-6  ">
             <h1 className="text-gray-400 font-bold text-3xl   mt-3">
               The Watch Every <br /> Man Desires
             </h1>
@@ -144,7 +144,7 @@ const Home = () => {
                 <p className="text-lg text-center font-bold">Logo</p>
                 <br />
 
-                <p className="text-sm text-justify">
+                <p className="text-sm text-start">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
                   corporis! Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Est, corporis!
@@ -165,14 +165,14 @@ const Home = () => {
                 <p className="text-lg text-center font-bold">Logo</p>
                 <br />
 
-                <p className="text-sm text-justify">
+                <p className="text-sm text-start">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
                   corporis! Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Est, corporis!
                 </p>
               </div>
             </div>
-            <div className="lg:flex text-justify justify-center gap-4 lg:flex-col lg:w-72">
+            <div className="lg:flex text-start justify-center gap-4 lg:flex-col lg:w-72">
               <div
                 style={{
                   backgroundColor: "rgb(42, 45, 42)",
@@ -188,7 +188,7 @@ const Home = () => {
                 <p className="text-lg text-center font-bold">Logo</p>
                 <br />
 
-                <p className="text-sm text-justify">
+                <p className="text-sm text-start">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
                   corporis! Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Est, corporis!
@@ -209,7 +209,7 @@ const Home = () => {
                 <p className="text-lg text-center font-bold">Logo</p>
                 <br />
 
-                <p className="text-sm text-justify">
+                <p className="text-sm text-start">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
                   corporis! Lorem ipsum dolor sit amet consectetur adipisicing
                   elit. Est, corporis!
@@ -224,12 +224,12 @@ const Home = () => {
             <p className="text-2xl font-bold   text-gray-400   mb-5 ">
               Being Confident And Decisive
             </p>
-            <p className="text-justify mb-5 ">
+            <p className="text-start mb-5 ">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Accusantium <br /> ratione repellendus accusamus? Officiis aut
               magni non nam modi quos aliquid!
             </p>
-            <p className="text-justify mb-5 ">
+            <p className="text-start mb-5 ">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Accusantium <br /> ratione repellendus accusamus? Officiis aut
               magni non nam modi quos aliquid!
@@ -255,7 +255,7 @@ const Home = () => {
               Accusantium <br /> ratione repellendus accusamus? Officiis aut
               magni non nam modi quos aliquid!
             </p>
-            <p className="text-justify mb-5 ">
+            <p className="text-start mb-5 ">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Accusantium <br /> ratione repellendus accusamus? Officiis aut
               magni non nam modi quos aliquid!
